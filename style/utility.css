@@ -1,31 +1,35 @@
 .grid{
-    display: grid; 
- }
- 
- .grid-flow-col{
-     grid-auto-flow: column;
- }
+  display: grid; 
+}
 
- .grid-flow-col-2{
-    grid-template-columns: 1fr 1fr;
- }
+.grid-flow-col{
+    grid-auto-flow: column;
+}
 
- .gap-16{
-    gap: 16px;
- }
+.grid-flow-col-2{
+  grid-template-columns: 1fr 1fr;
+}
 
- .text-2xl{
-   font: var(--h1);
- }
+.gap-16{
+  gap: 16px;
+}
 
- .text-xl{
-   font: var(--h2);
- }
+.gap-32{
+  gap: 32px;
+}
 
- .text-lg{
-   font: var(--h3);
- }
+.text-2xl{
+  font: var(--h1);
+}
 
- .text-sm{
-   font: var(--text-sm);
- }
+.text-xl{
+  font: var(--h2);
+}
+
+.text-lg{
+  font: var(--h3);
+}
+
+.text-sm{
+  font: var(--text-sm);
+}
